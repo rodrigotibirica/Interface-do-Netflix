@@ -1,0 +1,32 @@
+/* ----- RESPONSIVIDADE ----- */
+
+@media screen and (max-width: 700px) {
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+        height: auto;
+    }
+
+    .filme-principal .container {
+        width: 500px;
+        height: auto;
+        font-size: 60%;
+    }
+
+    .carrosel-filmes {
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 60%;
+    }
+}
+
